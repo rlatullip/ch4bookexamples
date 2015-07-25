@@ -12,5 +12,4 @@ class MoviesController < ApplicationController
   # raise params.inspect (commented out after trying)
   logger.debug('testing, testing, 1...2...3...testing')
 
-debugger
 end
