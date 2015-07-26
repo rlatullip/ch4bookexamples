@@ -30,10 +30,10 @@ group :development, :test do
 end
 
 # making your Gemfile safe for Heroku
-ruby '1.9.3'   # just in case - tell Heroku which Ruby version we need
 group :development, :test do
   # make sure sqlite3 gem ONLY occurs inside development & test groups
   gem 'sqlite3' # use SQLite only in development and testing
+  gem 'debugger'
 end 
 group :production do
   # make sure the following gems are in your production group:
