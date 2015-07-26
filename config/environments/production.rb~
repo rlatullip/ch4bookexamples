@@ -1,7 +1,4 @@
 Myrottenpotatoes::Application.configure do
-	# Section 4.5
-	logger.debug
-
   # Settings specified here will take precedence over those in config/application.rb
 
   # Code is not reloaded between requests

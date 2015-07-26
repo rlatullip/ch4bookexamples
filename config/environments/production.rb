@@ -19,6 +19,9 @@ Myrottenpotatoes::Application.configure do
 
   # Generate digests for assets URLs
   config.assets.digest = true
+  
+  # enable Heroku to precompile assets at deploy time
+  config.assets.initialize_on_precompile = false
 
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH

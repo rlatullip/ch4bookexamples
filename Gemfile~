@@ -7,6 +7,8 @@ gem 'rails', '3.2.16'
 
 gem 'sqlite3'
 
+# adding gem for Heroku
+gem 'rails_12factor', group: :production
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -21,6 +23,14 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+# use Haml for templates
+gem 'haml'
+
+# use Ruby debugger
+group :development, :test do
+  gem 'debugger'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
