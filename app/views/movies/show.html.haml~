@@ -14,5 +14,10 @@
 
 = link_to 'Back to movie list', movies_path
 
-<!-- Section 4.5 -->
-= debug(@movie)
+<!-- Section 4.5 (commented out after trying) -->
+<!-- = debug(@movie) -->
+
+<!-- Section 4.8 modification -->
+= link_to 'Edit Info', edit_movie_path(@movie)
+= link_to 'Delete', movie_path(@movie), :method = :delete
+

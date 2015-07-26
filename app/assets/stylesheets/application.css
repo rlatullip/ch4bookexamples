@@ -62,3 +62,8 @@ form label {
   font-weight: bold;
   color: maroon;
 }
+/* Section 4.7 style for flash messages */
+.message {
+	color: red;
+	text-align: center;
+}
